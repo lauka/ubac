@@ -1,0 +1,28 @@
+{
+  "name": "rbac",
+  "version": "1.0.0",
+  "description": "user and rbac opration for project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/sample.js"
+  },
+  "keywords": [
+    "rabc",
+	"user system"
+  ],
+  "homepage": "https://www.jx1000.com/rbac",
+  "author": {
+    "name": "zhaoxuan",
+    "email": "lauka1026@gmail.com",
+    "url": "http://www.jx1000.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+	"q" : "~1.4.1",
+	"mysql": "~2.9.0",
+	"mysql-queues": "~1.0.0"
+  }
+}
