@@ -1,7 +1,7 @@
 {
-  "name": "rbac",
+  "name": "ubac",
   "version": "1.0.0",
-  "description": "user and rbac opration for project",
+  "description": "User and authority system",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -10,10 +10,11 @@
     "test": "node test/sample.js"
   },
   "keywords": [
+    "uabc",
     "rabc",
 	"user system"
   ],
-  "homepage": "https://www.jx1000.com/rbac",
+  "homepage": "https://www.jx1000.com/ubac",
   "author": {
     "name": "zhaoxuan",
     "email": "lauka1026@gmail.com",
