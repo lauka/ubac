@@ -3,7 +3,7 @@
 ubac.init({
 	model : {
 		name : 'mysql',
-	//	rebuild : true,
+		rebuild : true,
 		connect : {
 			connectionLimit : 10,
 			host : 'localhost',

@@ -1,6 +1,6 @@
 {
   "name": "ubac",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "User and authority system",
   "main": "index.js",
   "directories": {
@@ -21,9 +21,19 @@
     "url": "http://www.jx1000.com"
   },
   "license": "MIT",
-  "devDependencies": {
+  "dependencies":{
 	"q" : "~1.4.1",
 	"mysql": "~2.9.0",
 	"mysql-queues": "~1.0.0"
+  },
+  "devDependencies": {
+	"q" : "~1.4.1",
+	"mysql": "~2.9.0",
+	"mocha": "~2.2.5",
+	"mysql-queues": "~1.0.0"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
   }
+  
 }
